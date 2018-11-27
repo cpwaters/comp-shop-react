@@ -1,0 +1,188 @@
+
+.App {
+  background:transparent;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  width:20%;
+  max-width:90px;
+  vertical-align: middle;
+}
+
+.top-banner {
+  background:#000;
+  margin: 0;
+  vertical-align: middle;
+  text-align:center;
+}
+
+h2 {color:#fff;font-size: 1rem;}
+
+.App-header {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  color: white;
+  border-bottom:1px solid #c2c2c2;
+}
+
+.App-title {
+  font-size: 1.5em;
+  color:#3ad23f;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Comp-logo {
+  max-width:250px;
+  width:100%;
+}
+
+.card-content {
+  padding:50px 0;
+
+}
+
+.drink-comp, .food-comp, .hh-comp, .data-comp {
+  border: 1px solid #c2c2c2;
+  padding:10px;
+  border-radius:3px;
+  max-width: 100%;
+  width: 25%;
+  margin:10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.list-comp {
+  border: 1px solid #c2c2c2;
+  padding:10px;
+  border-radius:3px;
+  max-width: 100%;
+  width: 25%;
+  margin:10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.single-comp {
+  border: 1px solid #c2c2c2;
+  padding:10px;
+  border-radius:3px;
+  max-width: 95%;
+  width: 100%;
+  margin:10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.data-comp img {
+  position:absolute;
+  top:-72px;
+  left:-193px;
+  opacity:0.1;
+  z-index:-1;
+}
+
+.data-comp {
+  position: relative;
+  overflow:hidden;
+  padding-left:80px;
+}
+
+.add-drink-form {
+  display: block;
+  width:50%;
+}
+
+.spin-loader {
+  animation: logo-spin infinite 1s linear;
+  height:50px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+ul {
+  display: block;
+  list-style-type:none;
+  margin-block-start:0;
+  margin-block-end:0;
+  margin-inline-start:0;
+  margin-inline-end:0;
+  padding-inline-start:0;
+}
+
+li {
+  list-style-type:none;
+  display:inline-block;
+  border:1px solid #c2c2c2;
+  border-radius:3px;
+  padding:10px;
+  margin:10px 5px;
+  color:#3811ce;
+}
+
+li a {
+  text-decoration:none;
+  color:#3811ce;
+}
+
+li:hover {background:#3ad23f;color:#fff;}
+
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 0.5px;
+}
+
+.wrapper {
+  max-width:1200px;
+  margin:0 auto;
+}
+
+.initials { 
+  text-transform:uppercase;
+  background: #3ad23f;
+  padding: 14px 10px;
+  border-radius: 70px;
+  color: #000;
+  font-weight: bold;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.card-content a {
+  text-decoration: none;
+  color: #000;
+}
+
+.list-card-img {max-width:145px;}
+.list-card-name {font-size:18px;}
+.list-card-price {font-size: 25px;font-weight: 900;}
+.list-card-quantity-package {font-size: 14px;margin-bottom:10px;}
+.list-card-type {float:left; color:#c7c7c7;}
+.list-card-epos {float:right; color:#c7c7c7;}
+
+.single-card-img {max-width:200px;}
+.single-card-name {}
+.single-card-price {}
+.single-card-quantity-package {}
+.single-card-type {}
+.single-card-epos {}
